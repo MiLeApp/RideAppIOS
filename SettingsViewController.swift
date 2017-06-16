@@ -1,5 +1,5 @@
 //
-//  EventsViewController.swift
+//  SettingsViewController.swift
 //  RideApp
 //
 //  Created by Yan Futerman on 16/06/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventsViewController: UITableViewController {
+class SettingsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,26 +29,23 @@ class EventsViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return eventRides.count
+        return 0
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
-        let eventRide = eventRides[indexPath.row] as EventRide
-        cell.textLabel?.text = eventRide.eventName
-        cell.detailTextLabel?.text = eventRide.eventDateTime
 
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -94,17 +91,5 @@ class EventsViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    @IBAction func cancelToEventsViewController (segue:UIStoryboardSegue){
-        
-    }
-    
-    @IBAction func saveEventRideDetails (segue: UIStoryboardSegue){
-        
-    }
 
 }
-
-
-var eventRides:[EventRide] = eventRidesData
-

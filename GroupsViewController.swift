@@ -1,5 +1,5 @@
 //
-//  EventsViewController.swift
+//  GroupsViewController.swift
 //  RideApp
 //
 //  Created by Yan Futerman on 16/06/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventsViewController: UITableViewController {
+class GroupsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,17 +34,18 @@ class EventsViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return eventRides.count
+        return groupsData.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GroupCell", for: indexPath)
 
         // Configure the cell...
-        let eventRide = eventRides[indexPath.row] as EventRide
-        cell.textLabel?.text = eventRide.eventName
-        cell.detailTextLabel?.text = eventRide.eventDateTime
+        let groupData = groupsData[indexPath.row] as GroupRide
+        cell.textLabel?.text = groupData.groupName
+        
+        cell.detailTextLabel?.text = groupData.groupOrigin
 
         return cell
     }
@@ -94,17 +95,8 @@ class EventsViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    @IBAction func cancelToEventsViewController (segue:UIStoryboardSegue){
-        
-    }
-    
-    @IBAction func saveEventRideDetails (segue: UIStoryboardSegue){
-        
-    }
 
 }
 
-
-var eventRides:[EventRide] = eventRidesData
+var groupsRides:[GroupRide] = groupsData
 

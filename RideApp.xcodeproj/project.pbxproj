@@ -15,6 +15,12 @@
 		78F1CD891EF32EF100C26E42 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD881EF32EF000C26E42 /* EventsViewController.swift */; };
 		78F1CD8B1EF3300C00C26E42 /* EventRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD8A1EF3300C00C26E42 /* EventRide.swift */; };
 		78F1CD8D1EF331C100C26E42 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD8C1EF331C100C26E42 /* SampleData.swift */; };
+		78F1CD8F1EF3A4F000C26E42 /* EventRideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */; };
+		78F1CD911EF3A82900C26E42 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */; };
+		78F1CD931EF3B38600C26E42 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */; };
+		78F1CD951EF3B3A600C26E42 /* CompanyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */; };
+		78F1CD971EF3B45200C26E42 /* CompanyRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD961EF3B45200C26E42 /* CompanyRide.swift */; };
+		78F1CD991EF3B47500C26E42 /* GroupRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD981EF3B47500C26E42 /* GroupRide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		78F1CD881EF32EF000C26E42 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		78F1CD8A1EF3300C00C26E42 /* EventRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRide.swift; sourceTree = "<group>"; };
 		78F1CD8C1EF331C100C26E42 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRideDetailsViewController.swift; sourceTree = "<group>"; };
+		78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyRidesViewController.swift; sourceTree = "<group>"; };
+		78F1CD961EF3B45200C26E42 /* CompanyRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyRide.swift; sourceTree = "<group>"; };
+		78F1CD981EF3B47500C26E42 /* GroupRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,12 @@
 		785DEA2F1EF31B8F0009A8F2 = {
 			isa = PBXGroup;
 			children = (
+				78F1CD981EF3B47500C26E42 /* GroupRide.swift */,
+				78F1CD961EF3B45200C26E42 /* CompanyRide.swift */,
+				78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */,
+				78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */,
+				78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */,
+				78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */,
 				78F1CD8C1EF331C100C26E42 /* SampleData.swift */,
 				78F1CD8A1EF3300C00C26E42 /* EventRide.swift */,
 				78F1CD881EF32EF000C26E42 /* EventsViewController.swift */,
@@ -146,11 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F1CD951EF3B3A600C26E42 /* CompanyRidesViewController.swift in Sources */,
+				78F1CD971EF3B45200C26E42 /* CompanyRide.swift in Sources */,
 				78F1CD8B1EF3300C00C26E42 /* EventRide.swift in Sources */,
 				785DEA3E1EF31B900009A8F2 /* ViewController.swift in Sources */,
+				78F1CD911EF3A82900C26E42 /* SettingsViewController.swift in Sources */,
+				78F1CD8F1EF3A4F000C26E42 /* EventRideDetailsViewController.swift in Sources */,
+				78F1CD931EF3B38600C26E42 /* GroupsViewController.swift in Sources */,
 				785DEA3C1EF31B900009A8F2 /* AppDelegate.swift in Sources */,
 				78F1CD8D1EF331C100C26E42 /* SampleData.swift in Sources */,
 				78F1CD891EF32EF100C26E42 /* EventsViewController.swift in Sources */,
+				78F1CD991EF3B47500C26E42 /* GroupRide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
