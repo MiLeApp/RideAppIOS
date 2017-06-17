@@ -1,0 +1,78 @@
+
+/* Class = "UISegmentedControl"; 0q2-6s-85V.segmentTitles[0] = "Driver"; ObjectID = "0q2-6s-85V"; */
+"0q2-6s-85V.segmentTitles[0]" = "נהג";
+
+/* Class = "UISegmentedControl"; 0q2-6s-85V.segmentTitles[1] = "Passenger"; ObjectID = "0q2-6s-85V"; */
+"0q2-6s-85V.segmentTitles[1]" = "נוסע";
+
+/* Class = "UISegmentedControl"; 0q2-6s-85V.segmentTitles[2] = "Don't participate"; ObjectID = "0q2-6s-85V"; */
+"0q2-6s-85V.segmentTitles[2]" = "לא משתתף";
+
+/* Class = "UILabel"; text = "The trip to Shdema"; ObjectID = "2vN-bk-Wt7"; */
+"2vN-bk-Wt7.text" = "The trip to Shdema";
+
+/* Class = "UITabBarItem"; title = "Company"; ObjectID = "4Ir-DI-aLX"; */
+"4Ir-DI-aLX.title" = "חברה";
+
+/* Class = "UITabBarItem"; title = "Groups"; ObjectID = "6pQ-Zb-AGq"; */
+"6pQ-Zb-AGq.title" = "קבוצות";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "7aF-cg-QWK"; */
+"7aF-cg-QWK.text" = "Title";
+
+/* Class = "UILabel"; text = "Date and Time"; ObjectID = "8Tl-et-jxF"; */
+"8Tl-et-jxF.text" = "מועד האירוע";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "BBM-wb-oAQ"; */
+"BBM-wb-oAQ.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "I am a"; ObjectID = "GHV-EA-tfy"; */
+"GHV-EA-tfy.text" = "אני";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Mmc-Un-XCK"; */
+"Mmc-Un-XCK.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "O20-IX-rqb"; */
+"O20-IX-rqb.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "On 22.06.2017 at 09:00"; ObjectID = "P42-Xb-lEM"; */
+"P42-Xb-lEM.text" = "On 22.06.2017 at 09:00";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "aCg-y2-99d"; */
+"aCg-y2-99d.text" = "מיקום";
+
+/* Class = "UINavigationItem"; title = "Groups"; ObjectID = "dhT-73-MW4"; */
+"dhT-73-MW4.title" = "קבוצות";
+
+/* Class = "UILabel"; text = "Event Name"; ObjectID = "eBx-9a-omf"; */
+"eBx-9a-omf.text" = "שם האירוע";
+
+/* Class = "UITabBarItem"; title = "Event"; ObjectID = "efr-xZ-HnM"; */
+"efr-xZ-HnM.title" = "אירועים";
+
+/* Class = "UINavigationItem"; title = "New Event"; ObjectID = "fcB-5I-6Xh"; */
+"fcB-5I-6Xh.title" = "אירוע חדש";
+
+/* Class = "UINavigationItem"; title = "Events"; ObjectID = "gPU-jv-QZG"; */
+"gPU-jv-QZG.title" = "אירועים";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gc2-1m-iua"; */
+"gc2-1m-iua.text" = "Title";
+
+/* Class = "UITextField"; text = "Nofit"; ObjectID = "j9Y-3t-SpM"; */
+"j9Y-3t-SpM.text" = "Nofit";
+
+/* Class = "UINavigationItem"; title = "Rides"; ObjectID = "jvG-9d-nyp"; */
+"jvG-9d-nyp.title" = "נסיעות";
+
+/* Class = "UILabel"; text = "My origin is:"; ObjectID = "nyU-W6-HCh"; */
+"nyU-W6-HCh.text" = "אני יוצא מ:";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "pa5-eP-7mF"; */
+"pa5-eP-7mF.title" = "הגדרות";
+
+/* Class = "UITableViewController"; title = "Events"; ObjectID = "pd6-pf-OTo"; */
+"pd6-pf-OTo.title" = "אירועים";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "ycP-qx-amg"; */
+"ycP-qx-amg.text" = "Detail";
