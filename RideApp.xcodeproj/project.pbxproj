@@ -21,6 +21,29 @@
 		78F1CD951EF3B3A600C26E42 /* CompanyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */; };
 		78F1CD971EF3B45200C26E42 /* CompanyRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD961EF3B45200C26E42 /* CompanyRide.swift */; };
 		78F1CD991EF3B47500C26E42 /* GroupRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD981EF3B47500C26E42 /* GroupRide.swift */; };
+		78F1CDCC1EF3D4E900C26E42 /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD9D1EF3D4E900C26E42 /* IASKAppSettingsViewController.m */; };
+		78F1CDCD1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD9F1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.m */; };
+		78F1CDCE1EF3D4E900C26E42 /* IASKMultipleValueSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDA11EF3D4E900C26E42 /* IASKMultipleValueSelection.m */; };
+		78F1CDCF1EF3D4E900C26E42 /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDA31EF3D4E900C26E42 /* IASKSpecifierValuesViewController.m */; };
+		78F1CDD01EF3D4E900C26E42 /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDA71EF3D4E900C26E42 /* IASKSettingsReader.m */; };
+		78F1CDD11EF3D4E900C26E42 /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDA91EF3D4E900C26E42 /* IASKSettingsStore.m */; };
+		78F1CDD21EF3D4E900C26E42 /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDAB1EF3D4E900C26E42 /* IASKSettingsStoreFile.m */; };
+		78F1CDD31EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDAD1EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.m */; };
+		78F1CDD41EF3D4E900C26E42 /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDAF1EF3D4E900C26E42 /* IASKSpecifier.m */; };
+		78F1CDD51EF3D4E900C26E42 /* IASKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78F1CDB11EF3D4E900C26E42 /* IASKLocalizable.strings */; };
+		78F1CDD61EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDC31EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.m */; };
+		78F1CDD71EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDC51EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.m */; };
+		78F1CDD81EF3D4E900C26E42 /* IASKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDC71EF3D4E900C26E42 /* IASKSlider.m */; };
+		78F1CDD91EF3D4E900C26E42 /* IASKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDC91EF3D4E900C26E42 /* IASKSwitch.m */; };
+		78F1CDDA1EF3D4E900C26E42 /* IASKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDCB1EF3D4E900C26E42 /* IASKTextField.m */; };
+		78F1CDDE1EF3F8B900C26E42 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDDD1EF3F8B800C26E42 /* Objective-CBridgingHeader.m */; };
+		78F1CDE11EF3FDC400C26E42 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDE01EF3FDC400C26E42 /* CustomViewCell.swift */; };
+		78F1CDE71EF4182C00C26E42 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78F1CDE61EF4182C00C26E42 /* Settings.bundle */; };
+		78F1CDEA1EF432E600C26E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F1CDE91EF432E600C26E42 /* Foundation.framework */; };
+		78F1CDEC1EF432F000C26E42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F1CDEB1EF432F000C26E42 /* UIKit.framework */; };
+		78F1CDEE1EF432F900C26E42 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F1CDED1EF432F900C26E42 /* MessageUI.framework */; };
+		78F1CDF01EF4330300C26E42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F1CDEF1EF4330300C26E42 /* CoreGraphics.framework */; };
+		78F1CDF21EF4453E00C26E42 /* NewEventRideDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CDF11EF4453E00C26E42 /* NewEventRideDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +54,68 @@
 		785DEA421EF31B900009A8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		785DEA451EF31B900009A8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		785DEA471EF31B900009A8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78F1CD881EF32EF000C26E42 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
-		78F1CD8A1EF3300C00C26E42 /* EventRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRide.swift; sourceTree = "<group>"; };
-		78F1CD8C1EF331C100C26E42 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRideDetailsViewController.swift; sourceTree = "<group>"; };
-		78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
-		78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyRidesViewController.swift; sourceTree = "<group>"; };
-		78F1CD961EF3B45200C26E42 /* CompanyRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyRide.swift; sourceTree = "<group>"; };
-		78F1CD981EF3B47500C26E42 /* GroupRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRide.swift; sourceTree = "<group>"; };
+		78F1CD881EF32EF000C26E42 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = ../EventsViewController.swift; sourceTree = "<group>"; };
+		78F1CD8A1EF3300C00C26E42 /* EventRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventRide.swift; path = ../EventRide.swift; sourceTree = "<group>"; };
+		78F1CD8C1EF331C100C26E42 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = ../SampleData.swift; sourceTree = "<group>"; };
+		78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventRideDetailsViewController.swift; path = ../EventRideDetailsViewController.swift; sourceTree = "<group>"; };
+		78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupsViewController.swift; path = ../GroupsViewController.swift; sourceTree = "<group>"; };
+		78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyRidesViewController.swift; path = ../CompanyRidesViewController.swift; sourceTree = "<group>"; };
+		78F1CD961EF3B45200C26E42 /* CompanyRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyRide.swift; path = ../CompanyRide.swift; sourceTree = "<group>"; };
+		78F1CD981EF3B47500C26E42 /* GroupRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupRide.swift; path = ../GroupRide.swift; sourceTree = "<group>"; };
+		78F1CD9C1EF3D4E900C26E42 /* IASKAppSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKAppSettingsViewController.h; sourceTree = "<group>"; };
+		78F1CD9D1EF3D4E900C26E42 /* IASKAppSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKAppSettingsViewController.m; sourceTree = "<group>"; };
+		78F1CD9E1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKAppSettingsWebViewController.h; sourceTree = "<group>"; };
+		78F1CD9F1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKAppSettingsWebViewController.m; sourceTree = "<group>"; };
+		78F1CDA01EF3D4E900C26E42 /* IASKMultipleValueSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKMultipleValueSelection.h; sourceTree = "<group>"; };
+		78F1CDA11EF3D4E900C26E42 /* IASKMultipleValueSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKMultipleValueSelection.m; sourceTree = "<group>"; };
+		78F1CDA21EF3D4E900C26E42 /* IASKSpecifierValuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSpecifierValuesViewController.h; sourceTree = "<group>"; };
+		78F1CDA31EF3D4E900C26E42 /* IASKSpecifierValuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSpecifierValuesViewController.m; sourceTree = "<group>"; };
+		78F1CDA41EF3D4E900C26E42 /* IASKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKViewController.h; sourceTree = "<group>"; };
+		78F1CDA61EF3D4E900C26E42 /* IASKSettingsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsReader.h; sourceTree = "<group>"; };
+		78F1CDA71EF3D4E900C26E42 /* IASKSettingsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsReader.m; sourceTree = "<group>"; };
+		78F1CDA81EF3D4E900C26E42 /* IASKSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStore.h; sourceTree = "<group>"; };
+		78F1CDA91EF3D4E900C26E42 /* IASKSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStore.m; sourceTree = "<group>"; };
+		78F1CDAA1EF3D4E900C26E42 /* IASKSettingsStoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreFile.h; sourceTree = "<group>"; };
+		78F1CDAB1EF3D4E900C26E42 /* IASKSettingsStoreFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStoreFile.m; sourceTree = "<group>"; };
+		78F1CDAC1EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreUserDefaults.h; sourceTree = "<group>"; };
+		78F1CDAD1EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStoreUserDefaults.m; sourceTree = "<group>"; };
+		78F1CDAE1EF3D4E900C26E42 /* IASKSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSpecifier.h; sourceTree = "<group>"; };
+		78F1CDAF1EF3D4E900C26E42 /* IASKSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSpecifier.m; sourceTree = "<group>"; };
+		78F1CDB21EF3D4E900C26E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB31EF3D4E900C26E42 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB41EF3D4E900C26E42 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB51EF3D4E900C26E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB61EF3D4E900C26E42 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB71EF3D4E900C26E42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB81EF3D4E900C26E42 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDB91EF3D4E900C26E42 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDBA1EF3D4E900C26E42 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDBB1EF3D4E900C26E42 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/IASKLocalizable.strings"; sourceTree = "<group>"; };
+		78F1CDBC1EF3D4E900C26E42 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDBD1EF3D4E900C26E42 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDBE1EF3D4E900C26E42 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDBF1EF3D4E900C26E42 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDC01EF3D4E900C26E42 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
+		78F1CDC21EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKPSSliderSpecifierViewCell.h; sourceTree = "<group>"; };
+		78F1CDC31EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKPSSliderSpecifierViewCell.m; sourceTree = "<group>"; };
+		78F1CDC41EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKPSTextFieldSpecifierViewCell.h; sourceTree = "<group>"; };
+		78F1CDC51EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKPSTextFieldSpecifierViewCell.m; sourceTree = "<group>"; };
+		78F1CDC61EF3D4E900C26E42 /* IASKSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSlider.h; sourceTree = "<group>"; };
+		78F1CDC71EF3D4E900C26E42 /* IASKSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSlider.m; sourceTree = "<group>"; };
+		78F1CDC81EF3D4E900C26E42 /* IASKSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSwitch.h; sourceTree = "<group>"; };
+		78F1CDC91EF3D4E900C26E42 /* IASKSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSwitch.m; sourceTree = "<group>"; };
+		78F1CDCA1EF3D4E900C26E42 /* IASKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKTextField.h; sourceTree = "<group>"; };
+		78F1CDCB1EF3D4E900C26E42 /* IASKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKTextField.m; sourceTree = "<group>"; };
+		78F1CDDD1EF3F8B800C26E42 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Objective-CBridgingHeader.m"; path = "../Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
+		78F1CDDF1EF3F91B00C26E42 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Objective-CBridgingHeader.h"; path = "../Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
+		78F1CDE01EF3FDC400C26E42 /* CustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		78F1CDE61EF4182C00C26E42 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		78F1CDE91EF432E600C26E42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78F1CDEB1EF432F000C26E42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78F1CDED1EF432F900C26E42 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		78F1CDEF1EF4330300C26E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78F1CDF11EF4453E00C26E42 /* NewEventRideDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewEventRideDetailsController.swift; path = ../NewEventRideDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +123,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F1CDF01EF4330300C26E42 /* CoreGraphics.framework in Frameworks */,
+				78F1CDEE1EF432F900C26E42 /* MessageUI.framework in Frameworks */,
+				78F1CDEC1EF432F000C26E42 /* UIKit.framework in Frameworks */,
+				78F1CDEA1EF432E600C26E42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,17 +136,11 @@
 		785DEA2F1EF31B8F0009A8F2 = {
 			isa = PBXGroup;
 			children = (
-				78F1CD981EF3B47500C26E42 /* GroupRide.swift */,
-				78F1CD961EF3B45200C26E42 /* CompanyRide.swift */,
-				78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */,
-				78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */,
-				78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */,
-				78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */,
-				78F1CD8C1EF331C100C26E42 /* SampleData.swift */,
-				78F1CD8A1EF3300C00C26E42 /* EventRide.swift */,
-				78F1CD881EF32EF000C26E42 /* EventsViewController.swift */,
 				785DEA3A1EF31B8F0009A8F2 /* RideApp */,
 				785DEA391EF31B8F0009A8F2 /* Products */,
+				78F1CDE61EF4182C00C26E42 /* Settings.bundle */,
+				78F1CD9A1EF3D4E900C26E42 /* InAppSettingsKit */,
+				78F1CDE81EF432E500C26E42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +155,16 @@
 		785DEA3A1EF31B8F0009A8F2 /* RideApp */ = {
 			isa = PBXGroup;
 			children = (
+				78F1CDDF1EF3F91B00C26E42 /* Objective-CBridgingHeader.h */,
+				78F1CDDD1EF3F8B800C26E42 /* Objective-CBridgingHeader.m */,
+				78F1CDF11EF4453E00C26E42 /* NewEventRideDetailsController.swift */,
+				78D0C0551EF4F39100870ED1 /* Data Structures */,
+				78F1CDE01EF3FDC400C26E42 /* CustomViewCell.swift */,
+				78F1CD941EF3B3A600C26E42 /* CompanyRidesViewController.swift */,
+				78F1CD921EF3B38600C26E42 /* GroupsViewController.swift */,
+				78F1CD901EF3A82900C26E42 /* SettingsViewController.swift */,
+				78F1CD8E1EF3A4EF00C26E42 /* EventRideDetailsViewController.swift */,
+				78F1CD881EF32EF000C26E42 /* EventsViewController.swift */,
 				785DEA3B1EF31B8F0009A8F2 /* AppDelegate.swift */,
 				785DEA3D1EF31B900009A8F2 /* ViewController.swift */,
 				785DEA3F1EF31B900009A8F2 /* Main.storyboard */,
@@ -89,6 +173,97 @@
 				785DEA471EF31B900009A8F2 /* Info.plist */,
 			);
 			path = RideApp;
+			sourceTree = "<group>";
+		};
+		78D0C0551EF4F39100870ED1 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CD981EF3B47500C26E42 /* GroupRide.swift */,
+				78F1CD961EF3B45200C26E42 /* CompanyRide.swift */,
+				78F1CD8C1EF331C100C26E42 /* SampleData.swift */,
+				78F1CD8A1EF3300C00C26E42 /* EventRide.swift */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		78F1CD9A1EF3D4E900C26E42 /* InAppSettingsKit */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CD9B1EF3D4E900C26E42 /* Controllers */,
+				78F1CDA51EF3D4E900C26E42 /* Models */,
+				78F1CDB01EF3D4E900C26E42 /* Resources */,
+				78F1CDC11EF3D4E900C26E42 /* Views */,
+			);
+			path = InAppSettingsKit;
+			sourceTree = "<group>";
+		};
+		78F1CD9B1EF3D4E900C26E42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CD9C1EF3D4E900C26E42 /* IASKAppSettingsViewController.h */,
+				78F1CD9D1EF3D4E900C26E42 /* IASKAppSettingsViewController.m */,
+				78F1CD9E1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.h */,
+				78F1CD9F1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.m */,
+				78F1CDA01EF3D4E900C26E42 /* IASKMultipleValueSelection.h */,
+				78F1CDA11EF3D4E900C26E42 /* IASKMultipleValueSelection.m */,
+				78F1CDA21EF3D4E900C26E42 /* IASKSpecifierValuesViewController.h */,
+				78F1CDA31EF3D4E900C26E42 /* IASKSpecifierValuesViewController.m */,
+				78F1CDA41EF3D4E900C26E42 /* IASKViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		78F1CDA51EF3D4E900C26E42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CDA61EF3D4E900C26E42 /* IASKSettingsReader.h */,
+				78F1CDA71EF3D4E900C26E42 /* IASKSettingsReader.m */,
+				78F1CDA81EF3D4E900C26E42 /* IASKSettingsStore.h */,
+				78F1CDA91EF3D4E900C26E42 /* IASKSettingsStore.m */,
+				78F1CDAA1EF3D4E900C26E42 /* IASKSettingsStoreFile.h */,
+				78F1CDAB1EF3D4E900C26E42 /* IASKSettingsStoreFile.m */,
+				78F1CDAC1EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.h */,
+				78F1CDAD1EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.m */,
+				78F1CDAE1EF3D4E900C26E42 /* IASKSpecifier.h */,
+				78F1CDAF1EF3D4E900C26E42 /* IASKSpecifier.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78F1CDB01EF3D4E900C26E42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CDB11EF3D4E900C26E42 /* IASKLocalizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		78F1CDC11EF3D4E900C26E42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CDC21EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.h */,
+				78F1CDC31EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.m */,
+				78F1CDC41EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.h */,
+				78F1CDC51EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.m */,
+				78F1CDC61EF3D4E900C26E42 /* IASKSlider.h */,
+				78F1CDC71EF3D4E900C26E42 /* IASKSlider.m */,
+				78F1CDC81EF3D4E900C26E42 /* IASKSwitch.h */,
+				78F1CDC91EF3D4E900C26E42 /* IASKSwitch.m */,
+				78F1CDCA1EF3D4E900C26E42 /* IASKTextField.h */,
+				78F1CDCB1EF3D4E900C26E42 /* IASKTextField.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78F1CDE81EF432E500C26E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F1CDEF1EF4330300C26E42 /* CoreGraphics.framework */,
+				78F1CDED1EF432F900C26E42 /* MessageUI.framework */,
+				78F1CDEB1EF432F000C26E42 /* UIKit.framework */,
+				78F1CDE91EF432E600C26E42 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +310,19 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				el,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				th,
+				tr,
 			);
 			mainGroup = 785DEA2F1EF31B8F0009A8F2;
 			productRefGroup = 785DEA391EF31B8F0009A8F2 /* Products */;
@@ -152,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				785DEA461EF31B900009A8F2 /* LaunchScreen.storyboard in Resources */,
+				78F1CDD51EF3D4E900C26E42 /* IASKLocalizable.strings in Resources */,
+				78F1CDE71EF4182C00C26E42 /* Settings.bundle in Resources */,
 				785DEA431EF31B900009A8F2 /* Assets.xcassets in Resources */,
 				785DEA411EF31B900009A8F2 /* Main.storyboard in Resources */,
 			);
@@ -164,17 +354,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F1CDCF1EF3D4E900C26E42 /* IASKSpecifierValuesViewController.m in Sources */,
+				78F1CDD61EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.m in Sources */,
 				78F1CD951EF3B3A600C26E42 /* CompanyRidesViewController.swift in Sources */,
 				78F1CD971EF3B45200C26E42 /* CompanyRide.swift in Sources */,
+				78F1CDD81EF3D4E900C26E42 /* IASKSlider.m in Sources */,
+				78F1CDDE1EF3F8B900C26E42 /* Objective-CBridgingHeader.m in Sources */,
 				78F1CD8B1EF3300C00C26E42 /* EventRide.swift in Sources */,
+				78F1CDD31EF3D4E900C26E42 /* IASKSettingsStoreUserDefaults.m in Sources */,
+				78F1CDE11EF3FDC400C26E42 /* CustomViewCell.swift in Sources */,
+				78F1CDD71EF3D4E900C26E42 /* IASKPSTextFieldSpecifierViewCell.m in Sources */,
 				785DEA3E1EF31B900009A8F2 /* ViewController.swift in Sources */,
 				78F1CD911EF3A82900C26E42 /* SettingsViewController.swift in Sources */,
 				78F1CD8F1EF3A4F000C26E42 /* EventRideDetailsViewController.swift in Sources */,
+				78F1CDD41EF3D4E900C26E42 /* IASKSpecifier.m in Sources */,
+				78F1CDF21EF4453E00C26E42 /* NewEventRideDetailsController.swift in Sources */,
 				78F1CD931EF3B38600C26E42 /* GroupsViewController.swift in Sources */,
 				785DEA3C1EF31B900009A8F2 /* AppDelegate.swift in Sources */,
+				78F1CDCE1EF3D4E900C26E42 /* IASKMultipleValueSelection.m in Sources */,
 				78F1CD8D1EF331C100C26E42 /* SampleData.swift in Sources */,
+				78F1CDD11EF3D4E900C26E42 /* IASKSettingsStore.m in Sources */,
+				78F1CDD91EF3D4E900C26E42 /* IASKSwitch.m in Sources */,
+				78F1CDD21EF3D4E900C26E42 /* IASKSettingsStoreFile.m in Sources */,
+				78F1CDD01EF3D4E900C26E42 /* IASKSettingsReader.m in Sources */,
+				78F1CDCD1EF3D4E900C26E42 /* IASKAppSettingsWebViewController.m in Sources */,
+				78F1CDDA1EF3D4E900C26E42 /* IASKTextField.m in Sources */,
 				78F1CD891EF32EF100C26E42 /* EventsViewController.swift in Sources */,
 				78F1CD991EF3B47500C26E42 /* GroupRide.swift in Sources */,
+				78F1CDCC1EF3D4E900C26E42 /* IASKAppSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +402,28 @@
 				785DEA451EF31B900009A8F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		78F1CDB11EF3D4E900C26E42 /* IASKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F1CDB21EF3D4E900C26E42 /* Base */,
+				78F1CDB31EF3D4E900C26E42 /* de */,
+				78F1CDB41EF3D4E900C26E42 /* el */,
+				78F1CDB51EF3D4E900C26E42 /* en */,
+				78F1CDB61EF3D4E900C26E42 /* es */,
+				78F1CDB71EF3D4E900C26E42 /* fr */,
+				78F1CDB81EF3D4E900C26E42 /* it */,
+				78F1CDB91EF3D4E900C26E42 /* ja */,
+				78F1CDBA1EF3D4E900C26E42 /* nl */,
+				78F1CDBB1EF3D4E900C26E42 /* pt-PT */,
+				78F1CDBC1EF3D4E900C26E42 /* pt */,
+				78F1CDBD1EF3D4E900C26E42 /* ru */,
+				78F1CDBE1EF3D4E900C26E42 /* sv */,
+				78F1CDBF1EF3D4E900C26E42 /* th */,
+				78F1CDC01EF3D4E900C26E42 /* tr */,
+			);
+			name = IASKLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -300,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.gmobapp.RideApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Objective-CBridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -313,6 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.gmobapp.RideApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Objective-CBridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
