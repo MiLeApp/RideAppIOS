@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1bR-x2-k1a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7az-of-e9H">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="yeH-u2-pcU">
+            <objects>
+                <viewController id="7az-of-e9H" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YCj-Ib-dOd"/>
+                        <viewControllerLayoutGuide type="bottom" id="gaN-Ik-sHy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aMf-2y-aAu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV0-JI-LoP">
+                                <rect key="frame" x="114" y="492" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <segue destination="1bR-x2-k1a" kind="show" id="eM0-nw-8Fn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pYK-um-h42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7016.25" y="98.239436619718305"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="2uU-TT-Whx">
             <objects>
@@ -278,8 +306,8 @@
                                 <rect key="frame" x="8" y="247" width="305" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Driver"/>
-                                    <segment title="Passenger"/>
+                                    <segment title="" image="ic_nonactivdriver"/>
+                                    <segment title="" image="ic_nonactivpassenger"/>
                                     <segment title="Don't participate"/>
                                 </segments>
                             </segmentedControl>
@@ -420,7 +448,7 @@
         <scene sceneID="rsu-1v-2Gx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pDk-K1-FQV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Events" id="efr-xZ-HnM"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="ic_ontimeride" selectedImage="ic_ontimeride" id="efr-xZ-HnM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fkz-Og-8xU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -439,7 +467,7 @@
         <scene sceneID="nFn-V6-BhG">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GfX-FV-70z" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Groups" id="6pQ-Zb-AGq"/>
+                    <tabBarItem key="tabBarItem" title="Groups" image="ic_gropride" selectedImage="ic_gropride" id="6pQ-Zb-AGq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dC9-we-q4b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -458,7 +486,7 @@
         <scene sceneID="y5W-xs-nAx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x5s-Du-Rlb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Company" id="4Ir-DI-aLX"/>
+                    <tabBarItem key="tabBarItem" title="Company" image="ic_2companypride" selectedImage="ic_2companypride" id="4Ir-DI-aLX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sVU-9c-Io6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -495,7 +523,7 @@
         <scene sceneID="nfm-ev-GXV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UGM-ix-NBk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" id="pa5-eP-7mF"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear_40" selectedImage="gear_40" id="pa5-eP-7mF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GBe-d2-QS9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -529,4 +557,12 @@
             <point key="canvasLocation" x="-2259.375" y="179.57746478873239"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gear_40" width="25" height="25"/>
+        <image name="ic_2companypride" width="25" height="25"/>
+        <image name="ic_gropride" width="25" height="25"/>
+        <image name="ic_nonactivdriver" width="25" height="25"/>
+        <image name="ic_nonactivpassenger" width="25" height="25"/>
+        <image name="ic_ontimeride" width="25" height="25"/>
+    </resources>
 </document>

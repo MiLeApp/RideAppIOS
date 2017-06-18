@@ -13,6 +13,7 @@
 		785DEA431EF31B900009A8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785DEA421EF31B900009A8F2 /* Assets.xcassets */; };
 		785DEA461EF31B900009A8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785DEA441EF31B900009A8F2 /* LaunchScreen.storyboard */; };
 		789F6F271EF5539A001E19C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 789F6F261EF5539A001E19C1 /* GoogleService-Info.plist */; };
+		789F6F2C1EF5C217001E19C1 /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F6F2B1EF5C217001E19C1 /* TodoRouter.swift */; };
 		78D0C0791EF5046800870ED1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D0C07B1EF5046800870ED1 /* Localizable.strings */; };
 		78F1CD891EF32EF100C26E42 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD881EF32EF000C26E42 /* EventsViewController.swift */; };
 		78F1CD8B1EF3300C00C26E42 /* EventRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1CD8A1EF3300C00C26E42 /* EventRide.swift */; };
@@ -59,6 +60,8 @@
 		785DEA451EF31B900009A8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		785DEA471EF31B900009A8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		789F6F261EF5539A001E19C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		789F6F2A1EF586C6001E19C1 /* RideApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RideApp.entitlements; sourceTree = "<group>"; };
+		789F6F2B1EF5C217001E19C1 /* TodoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
 		78D0C0741EF4FC6C00870ED1 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
 		78D0C0751EF4FC6D00870ED1 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		78D0C0761EF4FC6E00870ED1 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/IASKLocalizable.strings; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 		785DEA3A1EF31B8F0009A8F2 /* RideApp */ = {
 			isa = PBXGroup;
 			children = (
+				789F6F2B1EF5C217001E19C1 /* TodoRouter.swift */,
+				789F6F2A1EF586C6001E19C1 /* RideApp.entitlements */,
 				78F1CDDF1EF3F91B00C26E42 /* Objective-CBridgingHeader.h */,
 				78F1CDDD1EF3F8B800C26E42 /* Objective-CBridgingHeader.m */,
 				78D0C0551EF4F39100870ED1 /* Data Structures */,
@@ -329,6 +334,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = F99FL34CLL;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -434,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789F6F2C1EF5C217001E19C1 /* TodoRouter.swift in Sources */,
 				78F1CDCF1EF3D4E900C26E42 /* IASKSpecifierValuesViewController.m in Sources */,
 				78F1CDD61EF3D4E900C26E42 /* IASKPSSliderSpecifierViewCell.m in Sources */,
 				78F1CD951EF3B3A600C26E42 /* CompanyRidesViewController.swift in Sources */,
@@ -620,6 +634,7 @@
 			baseConfigurationReference = AD35279031AD1505539B4C51 /* Pods-RideApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RideApp/RideApp.entitlements;
 				DEVELOPMENT_TEAM = F99FL34CLL;
 				INFOPLIST_FILE = RideApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -635,6 +650,7 @@
 			baseConfigurationReference = 3E2BA5AF9477629FC8379E05 /* Pods-RideApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RideApp/RideApp.entitlements;
 				DEVELOPMENT_TEAM = F99FL34CLL;
 				INFOPLIST_FILE = RideApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

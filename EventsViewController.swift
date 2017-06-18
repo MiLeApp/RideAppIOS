@@ -9,6 +9,10 @@
 import UIKit
 
 class EventsViewController: UITableViewController, UITextViewDelegate, IASKSettingsDelegate {
+    
+    // Create new event
+    // Update details for the existing event
+    
 /*
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +74,8 @@ class EventsViewController: UITableViewController, UITextViewDelegate, IASKSetti
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // RestAPI - get events list
         
         // Settings initialization
         let barViewControllers = self.tabBarController?.viewControllers
